@@ -10,7 +10,7 @@ void connect_mysql()
        db.setPort(3306);                            //连接数据库端口号
         db.setDatabaseName("test");           //连接数据库名
         db.setUserName("root");                //数据库用户名
-        db.setPassword("2014550829");      //数据库密码
+        db.setPassword("88888888");      //数据库密码
         db.open();
         if(!db.open())
         {
